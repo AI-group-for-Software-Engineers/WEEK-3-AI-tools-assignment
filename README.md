@@ -69,4 +69,4 @@ A short video presentation is required to explain your approach.
 * **spaCy:** Natural Language Processing.
 * **Pandas & NumPy:** Data handling and manipulation.
 * **Matplotlib:** Data visualization.
-* **Streamlit:** Web application deployment (for the Iris project).
+* **Streamlit:** Web application deployment (for the MNIST project).
