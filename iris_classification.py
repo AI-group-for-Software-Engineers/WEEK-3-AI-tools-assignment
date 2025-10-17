@@ -10,6 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.metrics import accuracy_score, precision_score, recall_score, confusion_matrix, ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
+import streamlit as st
 
 # 2. Load the dataset
 # The Iris dataset is built into scikit-learn. It contains 150 samples
@@ -78,7 +79,8 @@ cm = confusion_matrix(y_test, y_pred)
 disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=iris.target_names)
 disp.plot(cmap="Blues", values_format="d")
 plt.title("Confusion Matrix - Decision Tree Classifier")
-plt.show()
+st.pyplot(plt)
+
 
 # ------------------------------
 # 9. Visualize decision tree
@@ -87,7 +89,7 @@ plt.show()
 plt.figure(figsize=(12, 8))
 plot_tree(model, feature_names=iris.feature_names, class_names=iris.target_names, filled=True)
 plt.title("Decision Tree Structure")
-plt.show()
+st.pyplot(plt)
 
 # ------------------------------
 # 10. Reflection
