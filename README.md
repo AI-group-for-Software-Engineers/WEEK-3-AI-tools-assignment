@@ -67,9 +67,10 @@ The report contain:
 A short video presentation explaining our approach toward the assignment.the video is a mergrd video where each of us explained the processes and codes.
 The video is approximately **3 minutes** long. and will be shared on the Community platform, submitted there.
 
-Part 3: Ethics & Optimization (10%)This section addresses advanced topics related to model deployment and responsibility. 
+ ### 3. Ethics & Optimization
+This section addresses advanced topics related to model deployment and responsibility. 
 
- 1. **Ethical Considerations**
+ i. **Ethical Considerations**
  
 **Model:** MNIST Digit Classification
 **Potential Biases:** Data representation bias (limited handwriting styles from American sources), accessibility concerns, and class imbalance in real-world use
@@ -84,7 +85,7 @@ Maintain transparency about model limitations.
 Establish user feedback mechanisms to dispute classifications.
 Avoid automated high-stakes decisions without human verification.
 
-2. Troubleshooting Challenge
+ii. Troubleshooting Challenge
 Task: Debug and fix a provided buggy TensorFlow script that contains errors such as dimension mismatches or incorrect loss functions.
 Outcome: The debugged CNN successfully achieved a high test accuracy (approximately 99%) on the MNIST dataset after 5 optimized epochs. Detailed performance metrics, including accuracy and loss curves, and a per-digit confusion matrix, were generated
 
