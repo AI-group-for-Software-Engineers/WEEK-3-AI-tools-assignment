@@ -6,11 +6,11 @@
 👥 Group Members
 This project was developed by the following group members:
 
-Anthonia Othetheaso 
-Obuye Emmanuel Chukwuemeke 
-Eunice Fagbemide 
-Daizy Jepchumba Kiplagat 
-Mark Ireri
+Anthonia Othetheaso,
+Obuye Emmanuel Chukwuemeke, 
+Eunice Fagbemide, 
+Daizy Jepchumba Kiplagat, 
+Mark Ireri,
 
 This repository contains a collection of projects demonstrating classical machine learning, deep learning (CNNs), and natural language processing (NLP) techniques.
 Each project addresses a distinct problem, from image classification to sentiment analysis.
