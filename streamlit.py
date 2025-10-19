@@ -78,7 +78,7 @@ if tab == "🏠 Home":
     st.image(
         "https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png",
         caption="Example MNIST Digits Dataset",
-        use_container_width=True
+        use_column_width=True
     )
 
     st.markdown("---")
