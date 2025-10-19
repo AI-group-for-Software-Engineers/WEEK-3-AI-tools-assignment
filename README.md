@@ -34,6 +34,7 @@ Each project addresses a distinct problem, from image classification to sentimen
 * **Dataset:** **MNIST** (handwritten digits).
 * **Key Libraries:** **TensorFlow** / **Keras**.
 * **Performance:** The model is trained over 5 epochs, achieving a high test accuracy (e.g., **99.02%**). The notebook also generates a plot of training accuracy and loss over the epochs.
+* **Live Demo:** You can interact with the deployed Streamlit web application here: https://mnist-digit-classifier-5.streamlit.app/
 
 ---
 
