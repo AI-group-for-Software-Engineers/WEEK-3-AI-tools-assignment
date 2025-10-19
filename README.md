@@ -85,7 +85,7 @@ Maintain transparency about model limitations.
 Establish user feedback mechanisms to dispute classifications.
 Avoid automated high-stakes decisions without human verification.
 
- ###Troubleshooting Challenge
+ ### Troubleshooting Challenge
 * Task: Debug and fix a provided buggy TensorFlow script that contains errors such as dimension mismatches or incorrect loss functions.
 * Outcome: The debugged CNN successfully achieved a high test accuracy (approximately 99%) on the MNIST dataset after 5 optimized epochs. * Detailed performance metrics, including accuracy and loss curves, and a per-digit confusion matrix, were generated
 
