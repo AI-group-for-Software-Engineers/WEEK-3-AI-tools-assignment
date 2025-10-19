@@ -5,31 +5,31 @@ from tensorflow.keras.models import load_model
 from PIL import Image, ImageOps
 from streamlit_drawable_canvas import st_canvas
 
-# --- Compatibility Fix for NumPy 2.0 ---
-if not hasattr(np, 'complex_'):
-    np.complex_ = np.complex128
-
-# --- Load CNN Model ---
-@st.cache_resource
-def load_cnn_model():
-    return load_model("mnist_cnn_model.h5")
-
-model = load_cnn_model()
-
-# --- Page Setup ---
+#  Page Setup 
 st.set_page_config(
     page_title="MNIST Digit Classifier",
     page_icon="🔢",
     layout="centered",
 )
 
-# --- Navigation Menu (Tabs) ---
+#  Compatibility Fix for NumPy 2.0 
+if not hasattr(np, 'complex_'):
+    np.complex_ = np.complex128
+
+#  Load CNN Model 
+@st.cache_resource
+def load_cnn_model():
+    return load_model("mnist_cnn_model.h5")
+
+model = load_cnn_model()
+
+#  Navigation Menu (Tabs) 
 tab = st.sidebar.radio(
     "Navigate",
     ["🏠 Home", "🔢 Prediction", "👥 Team"],
 )
 
-# --- Helper Functions ---
+#  Helper Functions 
 def preprocess_image(image):
     """Convert uploaded or drawn image to model input format."""
     image = image.convert("L")  # grayscale
@@ -92,7 +92,7 @@ elif tab == "🔢 Prediction":
     st.title("🔢 Handwritten Digit Prediction")
     st.write("Upload an image or draw a digit below to let the model recognize it!")
 
-    # --- File Upload Section ---
+    #  File Upload Section 
     st.header("📁 Upload an Image")
     uploaded_file = st.file_uploader(
         "Upload a digit image (PNG or JPG)", type=["png", "jpg", "jpeg"]
@@ -111,7 +111,7 @@ elif tab == "🔢 Prediction":
 
     st.markdown("---")
 
-    # --- Drawing Section ---
+    #  Drawing Section 
     st.header("✍️ Draw a Digit")
     st.write("Use your mouse or touch to draw a digit below (0–9):")
 
