@@ -40,25 +40,23 @@ Each project addresses a distinct problem, from image classification to sentimen
 
 ## ✍️ Project Deliverables & Submission Requirements
 
-In addition to the code files, the following supplementary materials are required for submission:
+In addition to the code files, we submitted the following supplementary materials as Required:
 
 ### 1. Project Report (PDF)
 
-A comprehensive PDF report is required, covering the project's theoretical and practical aspects. This report should be:
+A comprehensive PDF report, covering the project's theoretical and practical aspects. This report has been:
 * **Shared as an article** in the Community, Peer Group Review.
 * **Included** in this GitHub Repository.
 
-The report must contain:
+The report contain:
 * **Answers to theoretical questions** related to the models and concepts used.
 * **Screenshots of model outputs** (e.g., accuracy graphs, NER results, confusion matrices).
 * A section dedicated to **Ethical Reflection** on the dataset, model usage, and potential societal impact.
 
 ### 2. Presentation (Video)
 
-A short video presentation is required to explain your approach.
-* **Length:** The video should be approximately **3 minutes** long.
-* **Participation:** **All members** in the group should participate in the video.
-* **Submission:** **Share the video** on the Community platform.
+A short video presentation explaining our approach toward the assignment.the video is a mergrd video where each of us explained the processes and codes.
+The video is approximately **3 minutes** long. and will be shared on the Community platform, submitted there.
 
 ---
 
