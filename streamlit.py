@@ -82,7 +82,7 @@ if tab == "🏠 Home":
     )
 
     st.markdown("---")
-    st.caption("Built with ❤️ using Streamlit and TensorFlow | MNIST CNN Model")
+    st.caption("Built using Streamlit and TensorFlow | MNIST CNN Model")
 
 
 # ======================================================
