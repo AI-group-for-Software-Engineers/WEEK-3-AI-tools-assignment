@@ -3,6 +3,15 @@
 
 # Machine Learning and NLP Projects Portfolio
 
+👥 Group Members
+This project was developed by the following group members:
+
+Anthonia Othetheaso 
+Obuye Emmanuel Chukwuemeke 
+Eunice Fagbemide 
+Daizy Jepchumba Kiplagat 
+Mark Ireri
+
 This repository contains a collection of projects demonstrating classical machine learning, deep learning (CNNs), and natural language processing (NLP) techniques.
 Each project addresses a distinct problem, from image classification to sentiment analysis.
 
@@ -57,6 +66,27 @@ The report contain:
 
 A short video presentation explaining our approach toward the assignment.the video is a mergrd video where each of us explained the processes and codes.
 The video is approximately **3 minutes** long. and will be shared on the Community platform, submitted there.
+
+Part 3: Ethics & Optimization (10%)This section addresses advanced topics related to model deployment and responsibility. 
+
+ 1. **Ethical Considerations**
+ 
+**Model:** MNIST Digit Classification
+**Potential Biases:** Data representation bias (limited handwriting styles from American sources), accessibility concerns, and class imbalance in real-world use
+**Mitigation Strategies:** TensorFlow Fairness Indicators can use slice-based evaluation and fairness metrics to identify performance discrepancies.Other strategies include data augmentation and human-in-the-loop verification.
+
+**Model:** Amazon Reviews NLP
+**Potential Biases:** Language/Cultural bias (English-only), rule-based limitations (sarcasm, negation, context), demographic representation bias.
+**Mitigation Strategies:** spaCy's rule-based systems can be enhanced with customizable pipelines for negation handling and context-aware processing11. Other strategies include hybrid models and confidence scoring to flag ambiguous reviews
+
+Deployment Safeguards (General):
+Maintain transparency about model limitations.
+Establish user feedback mechanisms to dispute classifications.
+Avoid automated high-stakes decisions without human verification.
+
+2. Troubleshooting Challenge
+Task: Debug and fix a provided buggy TensorFlow script that contains errors such as dimension mismatches or incorrect loss functions.
+Outcome: The debugged CNN successfully achieved a high test accuracy (approximately 99%) on the MNIST dataset after 5 optimized epochs. Detailed performance metrics, including accuracy and loss curves, and a per-digit confusion matrix, were generated
 
 ---
 
